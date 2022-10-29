@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #FFF1DD;
+}
+/* h1{
+    text-align: center;
+} */
+.main{
+    display: flex;
+    align-items: center;
+    
+}
+.wrapper{
+    /* background-color: #c41313; */
+    width: 43%;
+    display: flex;
+    margin: 10%;
+    margin-left: 12%;
+    margin-right: -2%;
+    /* margin-top: 17%; */
+
+
+}
+.red-line{
+    background-color: #c41313;
+    width: 1%;
+    height: 45vh;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.red-line2{
+    background-color: #c41313;
+    width: 0.3%;
+    height: 14vh;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.home-content{
+    margin-top: 4%;
+    margin-left: 7%;
+
+    font-size: 24px;
+}
+span{
+    font-weight: lighter;
+}
+.text-content{
+    margin-top: -6%;
+    font-size: 14px;
+}
+.text-btn{
+    background-color: #077540;
+    padding: 4px 18px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    margin-left: 3%;
+    border: 2px solid #FFF1DD;
+}
+
+.text-btn2{
+    background-color: #FFF1DD;
+    color: black;
+    padding: 4px 18px;
+    border-radius: 10px;
+    border: 2px solid #077540;
+    margin-left: 3%;
+   
+}
+
+.text-btn2:hover{
+    background-color: #077540;
+    padding: 4px 18px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    margin-left: 3%;
+    border: 2px solid #FFF1DD;
+   
+}
+.img{
+    /* background-color: #c41313; */
+    margin-left: 3%;
+    margin-top: -19%;
+    width: 0%;
+    height: 65vh;
+}
